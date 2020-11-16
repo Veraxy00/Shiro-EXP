@@ -1,7 +1,9 @@
 # 项目介绍
 
 基于Apache Shiro反序列化漏洞进行利用链的探测，附内存马。
+
 利用时需要修改POST请求两处数据，分别为Header头RememberMe字段值和携带的data数据（由于payload设定，data中须指定名字为c的参数值）。
+
 探测到利用链后，根据提示，将屏幕输出的payload粘贴至POST请求Header头RememberMe字段处，至于data携带的数据，自行决策，本文文末附内存马，可直接粘贴至data中使用，或自行生成指定命令的字节码片段替换。
 
 # Shiro exp使用手册
