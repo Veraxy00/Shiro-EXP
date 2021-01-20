@@ -6,6 +6,8 @@
 
 探测到利用链后，根据提示，将屏幕输出的payload粘贴至POST请求Header头RememberMe字段处，至于data携带的数据，自行决策，本文文末附内存马，可直接粘贴至data中使用，或自行生成指定命令的字节码片段替换。
 
+与项目相关文章首发于：https://mp.weixin.qq.com/s/WDmj4-2lB-hlf_Fm_wDiOg
+
 # Shiro exp使用手册
 
 ## Shiro rememberMe反序列化漏洞
